@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+    <meta name="keywords" content="Jacob Hernandez's Webpage">
+    <meta name="description" content="This is my webpage. I hope you like it">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+			background-color: #555; /* Changes to a dark grey color */
+			color: #fff; /* set the text color to white */
+		   }
+  
+	  h1 {
+			color: #ff0; /* set the color for headers (h1) to yellow */
+		 }
+
+		p {
+			color: #ccc; /* set the color for content (p) to light gray */
+		  }
+</style>
+
+    </style>
+  </head>
+  <body>
+		 <h1>My Personal Website</h1> /* Header 1*/
+		 
+		  <a href="https://www.prusa3d.com/">
+		<img src="prusa.jpg" alt="Prusa Mk3 3D Printer" width="400" height="300">
+		</a>
+		<hr>
+		<h2>About Me</h2> /*Header 2 */
+		<p>
+			Hi, my name is Jacob Hernandez and I'm currently a Senior at the University of La Verne. 
+			I'm majoring in Information Technology. One interesting thing about me is that I love to 3D print.
+			I have made a wearable Stormtrooper set which took me over 200 hours to complete.
+		</p>
+		<br>
+
+		<h2>My Goals for Spring Semester</h2> /*Goals */
+
+		<ul> /* List start */
+			<li>Get a GPA of 3.5 or higher</li>
+			<li>Complete all assignments</li>
+			<li>Walk during graduation</li>
+			<li>Improve my time-management skills</li>
+			<li>Learn a new skill or software</li>
+		</ul> /* List end */
+
+		<h2>My Favorite Video</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/vbHqUNl8YFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<p>This is a funny segment on South Park where cable employees were getting excited whenever customers were frustrated. This is my favorite video because everytime I have seen this clip I cannot stop laughing. I hope you like it!</p>
+		
+		<table style="width: 80%;">
+  <thead>
+    <tr>
+      <th style="width: 20%;">Subject</th>
+      <th style="width: 15%;">Course Number</th>
+      <th style="width: 30%;">Course Name</th>
+      <th style="width: 15%;">Time</th>
+      <th style="width: 20%;">Place</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">CMPS</td>
+      <td>319</td>
+      <td>Publishing on the Web II</td>
+      <td>Tue/Thur 3:30pm-5:00pm</td>
+      <td>Founders Hall 207</td>
+    </tr>
+    <tr>
+      <td>327</td>
+      <td>Discrete Math</td>
+      <td>Mon 6:00pm-9:00pm</td>
+      <td>Founders Hall 207</td>
+    </tr>
+	<tr>
+      <td>490</td>
+      <td>Database Management Systems</td>
+      <td>Wed 6:00pm-9:00pm</td>
+      <td>Founders Hall 207</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<h2>Contact Form</h2>
+
+<form
+  action="https://formspree.io/f/xjvderyn"
+  method="POST"
+>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone"><br>
+
+  <label for="email">E-Mail:</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject" required><br>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea><br>
+
+  <label for="severity">Severity:</label>
+  <select id="severity" name="severity">
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select><br>
+
+  <label for="rating">Rating:</label>
+  <input type="range" id="rating" name="rating" min="1" max="5" value="3"><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+
+  </body>
+</html>
